@@ -36,7 +36,6 @@ class ExcelStyles {
         headers.eachWithIndex{ String entry, int i ->
             def cell = rowHeader.createCell(i)
             if (entry == "Status"){
-                println("Code is here")
                 cell.setCellStyle(getSuccessCellType())
             }
             cell.setCellValue(entry)
