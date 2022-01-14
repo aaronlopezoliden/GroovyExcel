@@ -18,7 +18,7 @@ class ExcelStyles {
     static void main(String[] args) {
 
 
-        def reportPath = "/Volumes/External/Development/2022/January/Groovy/GroovySnippets/files/report.xls"
+        def reportPath = "./files/report.xls"
 
         workbook = new HSSFWorkbook()
         os = new FileOutputStream(reportPath)
